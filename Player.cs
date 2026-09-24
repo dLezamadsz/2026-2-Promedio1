@@ -8,8 +8,8 @@ namespace Promedio1
 {
     internal class Player
     {
-        public int hp;
-        public int dmg;
+        public int hp = 30;
+        public int dmg = 5;
         public bool alive = true;
 
         public Player(int hp, int dmg, bool a)
