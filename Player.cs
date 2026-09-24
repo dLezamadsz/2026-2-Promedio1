@@ -21,7 +21,7 @@ namespace Promedio1
 
         public void GetDamage(Enemy e)
         {
-            hp -= e.hp;
+            hp -= e.dmg;
         }
 
         public int Attack()

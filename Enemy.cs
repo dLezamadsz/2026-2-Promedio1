@@ -21,6 +21,6 @@ namespace Promedio1
 
         public virtual void GetDamage(Player p);
         public virtual int Attack();
-        public virtual void IsDead();
+        public virtual bool IsDead();
     }
 }

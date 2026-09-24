@@ -21,7 +21,7 @@ namespace Promedio1
 
         public override void GetDamage(Player p)
         {
-            hp -= p.hp;
+            hp -= p.dmg;
         }
 
         public override int Attack()
@@ -29,12 +29,13 @@ namespace Promedio1
             return dmg;
         }
 
-        public override void IsDead()
+        public override bool IsDead()
         {
             if (hp <= 0)
             {
                 alive = false;
             }
+            return alive;
         }
     }
 }
